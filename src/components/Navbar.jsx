@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { React, useState } from 'react'
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonFill } from 'react-icons/bs'
@@ -9,7 +9,7 @@ const Navbar = () => {
 	const handleClick = () => setShowMenu(!showMenu)
 
 	return (
-		<div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0e2241] text-gray-300">
+		<div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-transparent text-gray-300">
 			<img src={Logo} alt="Logo" style={{ width: '50px' }} />
 
 			{/* menu*/}
@@ -30,7 +30,7 @@ const Navbar = () => {
 				className={
 					!showMenu
 						? 'hidden'
-						: '  absolute top-0 left-0 w-full h-screen bg-[#0e2241]  flex flex-col justify-center items-center'
+						: '  absolute top-0 left-0 w-full h-screen bg-transparent  flex flex-col justify-center items-center'
 				}>
 				<li className="py-5 text-4xl">Home</li>
 				<li className="py-5 text-4xl">About</li>
