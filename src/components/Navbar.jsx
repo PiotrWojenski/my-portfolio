@@ -13,12 +13,12 @@ const Navbar = () => {
 			<img src={Logo} alt="Logo" style={{ width: '50px' }} />
 
 			{/* menu*/}
-			<ul className="hidden md:flex">
-				<li>Home</li>
-				<li>About</li>
-				<li>Skills</li>
-				<li>Work</li>
-				<li>Contact</li>
+			<ul className="hidden md:flex ">
+				<li className="hover:text-[#11AD72] duration-200">Home</li>
+				<li className="hover:text-[#11AD72] duration-200">About</li>
+				<li className="hover:text-[#11AD72] duration-200">Skills</li>
+				<li className="hover:text-[#11AD72] duration-200">Work</li>
+				<li className="hover:text-[#11AD72] duration-200">Contact</li>
 			</ul>
 			{/* Hamburger*/}
 			<div onClick={handleClick} className="md:hidden text-2xl z-10 cursor-pointer">
@@ -32,11 +32,11 @@ const Navbar = () => {
 						? 'hidden'
 						: '  absolute top-0 left-0 w-full h-screen bg-transparent  flex flex-col justify-center items-center'
 				}>
-				<li className="py-5 text-4xl">Home</li>
-				<li className="py-5 text-4xl">About</li>
-				<li className="py-5 text-4xl">Skills</li>
-				<li className="py-5 text-4xl">Work</li>
-				<li className="py-5 text-4xl">Contact</li>
+				<li className="py-5 text-5xl">Home</li>
+				<li className="py-5 text-5xl">About</li>
+				<li className="py-5 text-5xl">Skills</li>
+				<li className="py-5 text-5xl">Work</li>
+				<li className="py-5 text-5xl">Contact</li>
 			</ul>
 
 			{/* Social icons*/}
