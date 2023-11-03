@@ -40,9 +40,18 @@ const Navbar = () => {
 			</ul>
 
 			{/* Social icons*/}
-			<div className="flex fixed flex-col top-[35%] left-0">
+			<div className="flex fixed flex-col top-[35%] left-0 ">
 				<ul>
-					<li></li>
+					<li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
+						<a
+							className="flex justify-between items-center w-full text-gray-300"
+							href="https://www.linkedin.com/in/piotr-wojenski/"
+							target="_blank"
+							rel="noreferrer">
+							Linkedin
+							<FaLinkedin size={30} />
+						</a>
+					</li>
 				</ul>
 			</div>
 		</div>
