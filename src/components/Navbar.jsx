@@ -13,6 +13,7 @@ const Navbar = () => {
 			<img src={Logo} alt="Logo" style={{ width: '50px' }} />
 
 			{/* menu*/}
+
 			<ul className="hidden md:flex ">
 				<li className="hover:text-[#11AD72] duration-200">Home</li>
 				<li className="hover:text-[#11AD72] duration-200">About</li>
@@ -20,6 +21,7 @@ const Navbar = () => {
 				<li className="hover:text-[#11AD72] duration-200">Work</li>
 				<li className="hover:text-[#11AD72] duration-200">Contact</li>
 			</ul>
+
 			{/* Hamburger*/}
 			<div onClick={handleClick} className="md:hidden text-2xl z-10 cursor-pointer">
 				{showMenu ? <FaTimes /> : <FaBars />}
