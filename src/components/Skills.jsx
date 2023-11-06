@@ -7,7 +7,16 @@ import tailwind from '../assets/tailwind.png'
 import github from '../assets/github.png'
 
 const Skills = () => {
-	return <div>Skills</div>
+	return (
+		<div name="skills">
+			{/*Container*/}
+			<div>
+				<div>
+					<p>Experience</p>
+				</div>
+			</div>
+		</div>
+	)
 }
 
 export default Skills
