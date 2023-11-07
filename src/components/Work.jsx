@@ -10,7 +10,9 @@ const Work = () => {
 					<p className="py-6">Check out some of my recent work</p>
 				</div>
 
+				{/*Container*/}
 				<div className="grid dm:grid-cols-2 md:grid-cols-3 gap-4">
+					{/*Grid Item 1*/}
 					<div
 						style={{ backgroundImage: `url(${workProject})` }}
 						className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
