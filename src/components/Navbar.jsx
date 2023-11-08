@@ -3,6 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonFill } from 'react-icons/bs'
 import Logo from '../assets/piotr wojenski - logo.png'
+import { Link } from 'react-scroll'
 
 const Navbar = () => {
 	const [showMenu, setShowMenu] = useState(false)
@@ -34,7 +35,11 @@ const Navbar = () => {
 						? 'hidden'
 						: '  absolute top-0 left-0 w-full h-screen bg-transparent  flex flex-col justify-center items-center'
 				}>
-				<li className="py-5 text-5xl">Home</li>
+				<li className="py-5 text-5xl">
+					<Link to="home" smooth={true} duration={500}>
+						Home
+					</Link>
+				</li>
 				<li className="py-5 text-5xl">About</li>
 				<li className="py-5 text-5xl">Skills</li>
 				<li className="py-5 text-5xl">Work</li>
