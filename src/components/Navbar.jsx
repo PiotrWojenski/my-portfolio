@@ -9,7 +9,7 @@ const Navbar = () => {
 	const handleClick = () => setShowMenu(!showMenu)
 
 	return (
-		<div className="fixed w-full h-[80px] flex justify-between items-center px-4  text-gray-300 bg-[#1e3b69]">
+		<div className="fixed w-full h-[80px] flex justify-between items-center px-4  text-gray-300 bg-[#0a192f]">
 			<img src={Logo} alt="Logo" style={{ width: '50px' }} />
 
 			{/* menu*/}
