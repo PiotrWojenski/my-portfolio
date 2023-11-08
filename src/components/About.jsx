@@ -15,7 +15,12 @@ const About = () => {
 						<p>Hi! I'm Piotr, nice to meet you. Please take a look around</p>
 					</div>
 					<div>
-						<p>I am passionate about building excellent software that improves the lives of those around me</p>
+						<p>
+							I am deeply passionate about the art of crafting exceptional software that not only meets but exceeds
+							expectations, but also has a positive impact on the lives of others. I believe that software has the power
+							to transform lives, and I am driven by the desire to create solutions that address real-world problems and
+							bring genuine value to users.
+						</p>
 					</div>
 				</div>
 			</div>
