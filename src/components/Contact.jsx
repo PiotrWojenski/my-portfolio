@@ -8,6 +8,7 @@ const Contact = () => {
 					<p className="text-4-xl font-bold inline border-b-4 border-[#11AD72] text-gray-300">Contact</p>
 					<p className="text-gray-300 py-4">Submit the form below or send me an emaik - pwojenskip@gmail.com</p>
 				</div>
+				<input type="text" />
 			</form>
 		</div>
 	)
