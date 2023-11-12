@@ -7,7 +7,7 @@ const Work = () => {
 			<div className="max-w-[1000px] mx-auto p-6 flex flex-col justify-center w-full h-full ">
 				<div className="pb-8">
 					<p className="text-4xl font-bold inline border-b-4 mt-8 text-gray-300 border-[#11AD72]">Work</p>
-					<p className="py-5">Check out some of my recent work</p>
+					<p className="pt-2 pb-4">Check out some of my recent work</p>
 				</div>
 
 				{/*Container*/}
